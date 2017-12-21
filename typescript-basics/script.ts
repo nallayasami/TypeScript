@@ -56,7 +56,7 @@ myFn();
 //Default parameter value 
 let myDefaultValFn = (name: string = 'Human') => console.log('Hello world !' + name);
 myDefaultValFn('NKA');
-
+myDefaultValFn();
 //REST and SPREAD
 
 const numberAry = [10, 12, 31, 44];

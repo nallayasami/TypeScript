@@ -41,6 +41,7 @@ var myDefaultValFn = function (name) {
     return console.log('Hello world !' + name);
 };
 myDefaultValFn('NKA');
+myDefaultValFn();
 //REST and SPREAD
 var numberAry = [10, 12, 31, 44];
 console.log('Actual', Math.max(10, 12, 31, 44));
