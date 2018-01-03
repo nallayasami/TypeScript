@@ -79,4 +79,3 @@ console.log('with alias', firstName, lastName);
 var myName = 'Nallai';
 var outputStr = "\n    Hello I'm " + myName + " !\n";
 console.log(outputStr);
-//# sourceMappingURL=script.js.map

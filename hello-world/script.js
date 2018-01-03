@@ -11,7 +11,7 @@ var Greeter = /** @class */ (function () {
 var greeter = new Greeter("world");
 var button = document.createElement('button');
 button.textContent = "Say Hello";
-button.classList.add('btn', 'btn-default');
+button.classList.add('btn', 'btn-primary');
 button.onclick = function () {
     alert(greeter.greet());
 };
