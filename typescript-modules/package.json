@@ -1,0 +1,17 @@
+{
+  "name": "typescript-modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "lite-server": "^2.3.0",
+    "systemjs": "^0.20.19"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
