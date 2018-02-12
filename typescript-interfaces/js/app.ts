@@ -15,7 +15,8 @@ const person: PersonInterface = {
     job: "physicist", //unknown property.
     getAge(): number {
         return (this.age) ? this.age : 0;
-    }
+    },
+    test: 10,
 }
 
 function logPerson(person: PersonInterface) {
@@ -25,7 +26,11 @@ function logPerson(person: PersonInterface) {
 logPerson(person);
 
 // without "Unknown prop name" declaration  this litral will throw error.
-// logPerson({ name: "Sheldon", unkonw: "", getAge() { return 0 } });
+logPerson({ name: "Sheldon", unkonwn: "", getAge() { return 0 } });
+//But this will not throw error only literals are validated up front
+const obj={ name: "Sheldon", unkonwn: "", getAge() { return 0 } };
+logPerson(obj);
+
 
 class anotherPerson implements PersonInterface {
 
